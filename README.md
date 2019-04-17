@@ -5,13 +5,19 @@ A list of benchmark suites used in the research related to compilers, program pe
 
 | Benchmark                                                                                 | Lang    | Published in     | Content          | Additional info                                                                                                                                                |
 |-------------------------------------------------------------------------------------------|---------|------------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [LCALS v1.0.2](https://computation.llnl.gov/projects/co-design/download/lcals-v1.0.2.tgz) | C       | [_Hornung2013_]  | 32 loops         | For analysis of compiler optimisations; modern extension to _Livermore loops_                                                                                  |
+| [LCALS v1.0.2](https://computation.llnl.gov/projects/co-design/download/lcals-v1.0.2.tgz) | C       | [_Hornung2013_]  | 32 loops         | For analysis of compiler optimisations; modern extension to _Livermore loops_; [more information](https://computation.llnl.gov/projects/co-design/lcals)       |
 | [Livermore loops (LFK)](https://www.netlib.org/benchmark/livermore)                       | FORTRAN | [_McMahon1986_]  | 24 loops         | For performance analysis                                                                                                                                       |
 | [Livermore loops](https://www.netlib.org/benchmark/livermorec)                            | C       | 1992             | 24 loops         | Port to C                                                                                                                                                      |
 | [TSVC](https://www.netlib.org/benchmark/vectord)                                          | FORTRAN | [_Callahan1988_] | 135 loops        | For testing automatic vectorizing compilers; [Single precision version](https://www.netlib.org/benchmark/vectors)                                              |
 | [TSVC](http://polaris.cs.uiuc.edu/~maleki1/TSVC.tar.gz)                                   | C       | [_Maleki2011_]   | 151 loops        | Extended port to C                                                                                                                                             |
 | [TSVC 2](https://github.com/UoB-HPC/TSVC_2)                                               | C       | 2015             | 151 loops        | Update to TSVC in C                                                                                                                                            |
 | [UTDSP](http://www.eecg.toronto.edu/~corinna/DSP/infrastructure/UTDSP.tar.gz)             | C       | 1992             | 6 loops, 12 apps | For testing compilers on Digitial Signal Processing (DSP) applications; [more information](http://www.eecg.toronto.edu/~corinna/DSP/infrastructure/UTDSP.html) |
+
+### Full names
+
+* LCALS — Livermore Compiler Analysis Loop Suite
+* LFK — Livermore FORTRAN Kernels
+* TSVC — Test Suite for Vectorizing Compilers
 
 ## Collections of benchmarks
 
