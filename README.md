@@ -20,6 +20,7 @@ A list of benchmark suites used in the research related to compilers, program pe
 
 * LCALS — Livermore Compiler Analysis Loop Suite
 * LFK — Livermore FORTRAN Kernels
+* PolyBench — The Polyhedral Benchmark Suite
 * TSVC — Test Suite for Vectorizing Compilers
 
 ## Collections of benchmarks
