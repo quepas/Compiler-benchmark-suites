@@ -1,5 +1,5 @@
 # Compiler-benchmark-suites
-A list of benchmark suites used in the research related to compilers, program performance, scientific computations etc.
+A list of benchmark suites (and some loose kernels) used in the research related to compilers, program performance, scientific computations etc.
 
 ## Benchmark suites
 
@@ -27,6 +27,11 @@ A list of benchmark suites used in the research related to compilers, program pe
 
 * [Benchmark@Netlib.org](http://www.netlib.org/benchmark/)
 * [Benchmarks by Nikolaos Kavvadias](http://www.nkavvadias.com/benchmarks.html#benchmarks)
+
+## Collections of loose kernels
+
+* [RRZE-HPC/Kerncraft](https://github.com/RRZE-HPC/kerncraft/tree/master/examples/kernels)
+* [ucb-bar/opencl-kernels](https://github.com/ucb-bar/opencl-kernels)
 
 ## References
 
