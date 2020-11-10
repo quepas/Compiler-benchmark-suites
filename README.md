@@ -5,6 +5,7 @@ A list of benchmark suites (and some loose kernels) used in the research related
 
 | Benchmark                                                                                                                  | Lang                      | Platform | Published in        | Content          | Additional info                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------|---------------------------|----------|---------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [BEEBS](https://github.com/mageec/beebs)|C|Embedded|[_Pallister2013_]|10 benchmarks|For analysis of energy consumption on embedded platforms|
 | [LCALS v1.0.2](https://computation.llnl.gov/projects/co-design/download/lcals-v1.0.2.tgz)                                  | C                         | CPU      | [_Hornung2013_]     | 32 loops         | For analysis of compiler optimisations; modern extension to _Livermore loops_; [more information](https://computation.llnl.gov/projects/co-design/lcals)                                                                                               |
 | [Livermore loops (LFK)](https://www.netlib.org/benchmark/livermore)                                                        | FORTRAN                   | CPU      | [_McMahon1986_]     | 24 loops         | For performance analysis                                                                                                                                                                                                                               |
 | [Livermore loops](https://www.netlib.org/benchmark/livermorec)                                                             | C                         | CPU      | 1992                | 24 loops         | Port to C                                                                                                                                                                                                                                              |
@@ -18,6 +19,7 @@ A list of benchmark suites (and some loose kernels) used in the research related
 
 ### Full names
 
+* BEEBS — Bristol/Embecosm Embedded Benchmark Suite
 * LCALS — Livermore Compiler Analysis Loop Suite
 * LFK — Livermore FORTRAN Kernels
 * PolyBench — The Polyhedral Benchmark Suite
@@ -36,7 +38,9 @@ A list of benchmark suites (and some loose kernels) used in the research related
 ## References
 
 * [_Callahan1988_] Callahan, D., Dongarra, J., & Levine, D. (1988). Vectorizing compilers: a test suite and results. In Proceedings. SUPERCOMPUTING ’88 (pp. 98–105). IEEE Comput. Soc. Press. https://doi.org/10.1109/SUPERC.1988.44642
-* [_Grauer-Gray2012_] Scott Grauer-Gray, Lifan Xu, Robert Searles, Sudhee Ayalasomayajula, and John Cavazos. Auto-tuning a High-Level Language Targeted to GPU Codes. Proceedings of Innovative Parallel Computing (InPar '12), 2012.
-* [_Hornung2013_] Richard D. Hornung and Jeffrey A. Keasler, “A Case for Improved C++ Compiler Support to Enable Performance Portability in Large Physics Simulation Codes”, LLNL-TR-635681 (2013).
+* [_Grauer-Gray2012_] Scott Grauer-Gray, Lifan Xu, Robert Searles, Sudhee Ayalasomayajula, and John Cavazos. Auto-tuning a High-Level Language Targeted to GPU Codes. Proceedings of Innovative Parallel Computing (InPar '12), 2012. https://doi.org/10.1109/InPar.2012.6339595
+* [_Hornung2013_] Richard D. Hornung and Jeffrey A. Keasler, “A Case for Improved C++ Compiler Support to Enable Performance Portability in Large Physics Simulation Codes”, LLNL-TR-635681 (2013). https://computing.llnl.gov/projects/co-design/compilersupportwhitepaper_tr-635681_cover.pdf
+* [_Pallister2013_] James Pallister, Simon Hollis, Jeremy Bennett (2013). BEEBS: Open Benchmarks for Energy Measurements on Embedded Platforms
+http://arxiv.org/abs/1308.5174.
 * [_Maleki2011_] Maleki, S., Gao, Y., Garzarán, M. J., Wong, T., & Padua, D. A. (2011). An evaluation of vectorizing compilers. Parallel Architectures and Compilation Techniques - Conference Proceedings, PACT, 7, 372–382. https://doi.org/10.1109/PACT.2011.68
 * [_McMahon1986_] F. H. McMahon. Livermore fortran kernels: A computer test of numerical performance range. Technical Report UCRL-53745, Lawrence Livermore National Laboratory, Livermore, CA, December 1986; __COMMENT__: no PDF on the web.
