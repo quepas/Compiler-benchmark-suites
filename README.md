@@ -26,6 +26,7 @@ A list of benchmark suites (and some loose kernels) used in the research related
 | [TSVC](http://polaris.cs.uiuc.edu/~maleki1/TSVC.tar.gz)                                                                    | C                         | CPU      | [_Maleki2011_]      | 151 loops        | Extended port to C                                                                                                                                                                                                                                     |
 | [TSVC 2](https://github.com/UoB-HPC/TSVC_2)                                                                                | C                         | CPU      | 2015                | 151 loops        | Update to TSVC in C                                                                                                                                                                                                                                    |
 | [UTDSP](http://www.eecg.toronto.edu/~corinna/DSP/infrastructure/UTDSP.tar.gz)                                              | C                         | CPU      | 1992                | 6 loops, 12 programs | For testing compilers on Digitial Signal Processing (DSP) applications; [more information](http://www.eecg.toronto.edu/~corinna/DSP/infrastructure/UTDSP.html)                                                                                         |
+| [VersaBench](https://groups.csail.mit.edu/cag/versabench/index.html)                                                       | C                         | Custom CPUs | [_Rabbah2004_]   | 15 programs | For the performance analysis of new flexible CPU architectures |
 
 ### Full names
 
@@ -38,6 +39,7 @@ A list of benchmark suites (and some loose kernels) used in the research related
 * PolyBench — The Polyhedral Benchmark Suite
 * SPLASH — Stanford Parallel Applications for Shared-Memory
 * TSVC — Test Suite for Vectorizing Compilers
+* VersaBench — A Benchmark Suite for Versatile Architectures
 
 ## Collections of benchmarks
 
@@ -59,11 +61,12 @@ A list of benchmark suites (and some loose kernels) used in the research related
 * [_Gustafsson2010_] Jan Gustafsson, Adam Betts, Andreas Ermedahl, and Björn Lisper. "The Mälardalen WCET benchmarks: Past, present and future". 10th International Workshop on Worst-Case Execution Time Analysis, WCET 2010, July 6, 2010, Brussels, Belgium. https://doi.org/10.4230/OASIcs.WCET.2010.136
 * [_Hockney1994_] Roger Hockney, and Michael Berry. "Public International Benchmarks for Parallel Computers". Technical report. February 7, 1994. https://netlib.org/parkbench/parkbench.ps
 * [_Hornung2013_] Richard D. Hornung and Jeffrey A. Keasler, “A Case for Improved C++ Compiler Support to Enable Performance Portability in Large Physics Simulation Codes”, LLNL-TR-635681 (2013). https://computing.llnl.gov/projects/co-design/compilersupportwhitepaper_tr-635681_cover.pdf
+* [_Maleki2011_] Maleki, S., Gao, Y., Garzarán, M. J., Wong, T., & Padua, D. A. (2011). "An evaluation of vectorizing compilers". Parallel Architectures and Compilation Techniques - Conference Proceedings, PACT, 7, 372–382. https://doi.org/10.1109/PACT.2011.68
+* [_McMahon1986_] F. H. McMahon. "Livermore fortran kernels: A computer test of numerical performance range". Technical Report UCRL-53745, Lawrence Livermore National Laboratory, Livermore, CA, December 1986; __COMMENT__: no PDF on the web.
 * [_Patterson2019_] David Patterson, Jeremy Bennett, Palmer Dabbelt, Cesare Garlati, G. S. Madhusudan and Trevor Mudge. "Embench™: An Evolving Benchmark Suite for Embedded IoT Computers from an Academic-Industrial Cooperative: Towards the Long Overdue and Deserved Demise of Dhrystone" (2019). https://riscv.org/wp-content/uploads/2019/06/9.25-Embench-RISC-V-Workshop-Patterson-v3.pdf
 * [_Pallister2013_] James Pallister, Simon Hollis, Jeremy Bennett (2013). "BEEBS: Open Benchmarks for Energy Measurements on Embedded Platforms"
 http://arxiv.org/abs/1308.5174.
-* [_Maleki2011_] Maleki, S., Gao, Y., Garzarán, M. J., Wong, T., & Padua, D. A. (2011). "An evaluation of vectorizing compilers". Parallel Architectures and Compilation Techniques - Conference Proceedings, PACT, 7, 372–382. https://doi.org/10.1109/PACT.2011.68
-* [_McMahon1986_] F. H. McMahon. "Livermore fortran kernels: A computer test of numerical performance range". Technical Report UCRL-53745, Lawrence Livermore National Laboratory, Livermore, CA, December 1986; __COMMENT__: no PDF on the web.
+* [_Rabbah2004_] Rodric M. Rabbah, Ian Bratt, Krste Asanovic, and Anant Agarwal, "Versatility and VersaBench: A New Metric and a Benchmark Suite for Flexible Architectures", MIT CSAIL Technical Memo, MIT-LCS-TM-646, June 2004, http://catfish.csail.mit.edu/~rabbah/versabench/MIT-LCS-TM-646.pdf
 * [_Sakalis2016_] C. Sakalis, C. Leonardsson, S. Kaxiras and A. Ros, "Splash-3: A properly synchronized benchmark suite for contemporary research", 2016 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), 2016, pp. 101-111, doi: https://www.doi.org/10.1109/ISPASS.2016.7482078.
 * [_Singh1992_] Jaswinder Pal Singh, Wolf-Dietrich Weber, and Anoop Gupta. 1992. "SPLASH: Stanford parallel applications for shared-memory". SIGARCH Comput. Archit. News 20, 1 (March 1992), 5–44. DOI:https://doi.org/10.1145/130823.130824
 * [_VanDerWijngaart2002_] Rob F. Van der Wijngaart et al. "NAS Grid Benchmarks Version 1.0". NASA Technical Report NAS-02-005. July, 2002. https://www.nas.nasa.gov/assets/pdf/techreports/2002/nas-02-005.pdf
