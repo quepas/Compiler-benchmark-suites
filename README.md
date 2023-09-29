@@ -51,6 +51,7 @@ A list of benchmark suites (and some loose kernels) used in the research related
 
 * [Benchmark@Netlib.org](http://www.netlib.org/benchmark/)
 * [Benchmarks by Nikolaos Kavvadias](http://www.nkavvadias.com/benchmarks.html#benchmarks)
+* [Benchmarks by lac-dcc Research Group](https://github.com/lac-dcc/Benchmarks) - 260 benchmarks, 36 test suites
 
 ## Collections of loose kernels
 
